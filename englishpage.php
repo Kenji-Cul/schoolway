@@ -76,6 +76,7 @@ include("projectinfo.php");
                     <?php }else{?>
                     <video width="340" height="240" controls>
                         <source src="uploads/<?php echo $value['topic_video'];?>" type="video/mp4">
+                    </video>
                     <?php }?>
                     <p><?php echo $value['topic_details']?></p>
     </div>

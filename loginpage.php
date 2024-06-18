@@ -23,7 +23,8 @@ body{
 }
 img{
     border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
+    border-top-left-radius: 30px
+    object-fit: cover;
 }
 .btn1{
     border:none;
@@ -84,7 +85,7 @@ img{
         ?>
         <div class="row no-gutters">
             <div class="col-lg-5">
-                <img src="images/schoolimage.jpg" alt="No Image" class="img-fluid" style="height:30em;">
+                <img src="images/schoolimage.jpg" alt="No Image" class="img-fluid" style="height:30em; object-fit: cover;">
             </div>
             <div class="col-lg-7 px-5 pt-5">
                 <h1 class="font-weight-bold py-3">Welcome Back</h1>

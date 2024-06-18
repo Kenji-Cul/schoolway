@@ -56,24 +56,19 @@ img{
             }
             else{
                 $student = new User;
-                $userdetails=$student->select_password($_SESSION['student_email'],md5($_POST['pwd']));
+                $userdetails=$student->select_teacher($_SESSION['teacher_email'],md5($_POST['pwd']));
                 //var_dump($userdetails);
                   
                 if(empty($userdetails)){
                     $errormsg="<div class='alert alert-danger'>Invalid login details try again</div>";
                 }else{   
-                    $_SESSION['student_id'] =$userdetails['user_id'];
-                    $_SESSION['student_name'] = $userdetails['username'];
-                    $_SESSION['student_email'] = $userdetails['email'];
-                    $_SESSION['student_class'] = $userdetails['class'];
-                    $_SESSION['unique_id'] = $userdetails['unique_id'];
-                    $_SESSION['student_bio'] = $userdetails['bio'];
+                    $_SESSION['teacher_id'] =$userdetails['teacher_id'];
+                    $_SESSION['teacher_name'] = $userdetails['username'];
+                    $_SESSION['teacher_email'] = $userdetails['email'];
                     $_SESSION['nameuser'] = "great123";
-                    $student = new User;
-                    $id = $_SESSION['unique_id'];
-                    $stud = $student->update_stats($id);
+                    
                     $log="<div class='alert alert-success'><h3 align='center'>Login successful</h3></div>";
-                header("Location: index.php");
+                header("Location: teacherpage.php");
             }
          }
         }
@@ -112,7 +107,7 @@ img{
                         </div>
                     </div>
                     <a href="changepassword.php">Forgot Password ?</a>
-                    <p>Don't have an account ? <a href="signuppage.php">Register</a></p>
+                    <p>Don't have an account ? <a href="teachersignup.php">Register</a></p>
                 </form>
             </div>
         </div>
