@@ -24,7 +24,10 @@ body{
 img{
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
+<<<<<<< HEAD
     object-fit: cover;
+=======
+>>>>>>> 75a4d617ce978077150fe0250ad1819407880cf3
 }
 .btn1{
     border:none;
@@ -68,7 +71,11 @@ img{
                     $_SESSION['nameuser'] = "great123";
                     
                     $log="<div class='alert alert-success'><h3 align='center'>Login successful</h3></div>";
+<<<<<<< HEAD
                 header("Location: teacherpage.php");
+=======
+                header("Location: index.php");
+>>>>>>> 75a4d617ce978077150fe0250ad1819407880cf3
             }
          }
         }
@@ -107,7 +114,11 @@ img{
                         </div>
                     </div>
                     <a href="changepassword.php">Forgot Password ?</a>
+<<<<<<< HEAD
                     <p>Don't have an account ? <a href="teachersignup.php">Register</a></p>
+=======
+                    <p>Don't have an account ? <a href="signuppage.php">Register</a></p>
+>>>>>>> 75a4d617ce978077150fe0250ad1819407880cf3
                 </form>
             </div>
         </div>
