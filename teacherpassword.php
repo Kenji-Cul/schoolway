@@ -24,10 +24,7 @@ body{
 img{
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
-<<<<<<< HEAD
     object-fit: cover;
-=======
->>>>>>> 75a4d617ce978077150fe0250ad1819407880cf3
 }
 .btn1{
     border:none;
