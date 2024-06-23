@@ -109,7 +109,7 @@
         // $pwd="$password";
        //write the query
        $sql = "SELECT * FROM teacher WHERE email='$email'";
-       var_dump($sql);
+    //    var_dump($sql);
        $result =$this->dbcon->query($sql);
     $row = $result->fetch_assoc();
        if($result->num_rows == 1){

@@ -142,6 +142,7 @@ img{
                             <button type="submit" class="btn1  mb-4">Sign Up</button>
                         </div>
                     </div>
+                  
                     <span>Already Signed Up?</span><a href="loginpage.php">Login Here</a>
                     <p style="margin-top: 2em;"><a href="teachersignup.php">Sign up as a Teacher</a></p>
                 </form>

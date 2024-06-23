@@ -76,9 +76,9 @@ form{
                        if(!empty($teacherpic)){
                     ?>
                     <?php if(empty($value['photo'])){?>
-                    <img src="images/usericons.png"  style="border-radius:50%; height:5rem; width:5rem;">
+                    <img src="images/usericons.png"  style="border-radius:50%; height:5rem; width:5rem; object-fit: cover;">
                     <?php }else{?>
-                    <img src="profile/<?php echo $value['photo'];?>"  style="border-radius:50%; height:5rem; width:5rem; border:2px solid blue;">
+                    <img src="profile/<?php echo $value['photo'];?>"  style="border-radius:50%; height:5rem; width:5rem; border:2px solid blue; object-fit: cover;">
                     <?php }?>
                        <?php }}?>
                         <p style="color:black;"><?php if(isset($_SESSION['teacher_email'])){

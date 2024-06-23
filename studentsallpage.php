@@ -68,7 +68,7 @@ include("projectinfo.php");
                         <img src="profile/<?php echo $value['photo'];?>"  style="border-radius:50%; height:10rem; width:10rem; 
                       margin-top:8px; display:block!important;">
                       <?php }?>
-                       <h4 style="color:black;"><?php echo $value['email'];?></h4>
+                       <h4 style="color:black; text-transform: lowercase; font-size: 12px;"><?php echo $value['email'];?></h4>
                 <p></p>
                 <p></p>
             </div>

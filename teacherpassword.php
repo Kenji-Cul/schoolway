@@ -24,6 +24,7 @@ body{
 img{
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
+    object-fit: cover;
 }
 .btn1{
     border:none;
@@ -106,7 +107,11 @@ img{
                         </div>
                     </div>
                     <a href="changepassword.php">Forgot Password ?</a>
+<<<<<<< HEAD
+                    <p>Don't have an account ? <a href="teachersignup.php">Register</a></p>
+=======
                     <p>Don't have an account ? <a href="signuppage.php">Register</a></p>
+>>>>>>> 75a4d617ce978077150fe0250ad1819407880cf3
                 </form>
             </div>
         </div>

@@ -52,7 +52,7 @@ img{
         <?php 
             if($_SERVER['REQUEST_METHOD']=='POST'){
                 if(empty($_POST['email'])){
-                $errormsg="<div class='alert alert-danger'>Email reuired to login</div>";
+                $errormsg="<div class='alert alert-danger'>Email required to login</div>";
             }
             else{
                 $student = new User;
