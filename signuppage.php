@@ -23,6 +23,7 @@ body{
 img{
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
+    object-fit: cover;
 }
 .btn1{
     border:none;
@@ -40,7 +41,7 @@ img{
     color: black;
 }
 #rowguy{
-    height:35em;
+    height:40em;
 }
  </style>
  </head>   
@@ -92,7 +93,7 @@ img{
             <?php if(isset($errormsg)){echo $errormsg;}?>
         <div class="row no-gutters" id="rowguy">
             <div class="col-lg-5">
-                <img src="images/schoolimage.jpg" alt="No Image" class="img-fluid" style="height:35em;">
+                <img src="images/schoolimage.jpg" alt="No Image" class="img-fluid" style="height:40em;">
             </div>
             <div class="col-lg-7 px-5 pt-5">
                 <h1 class="font-weight-bold py-3">Sign Up</h1>
@@ -142,6 +143,7 @@ img{
                         </div>
                     </div>
                     <span>Already Signed Up?</span><a href="loginpage.php">Login Here</a>
+                    <p style="margin-top: 2em;"><a href="teachersignup.php">Sign up as a Teacher</a></p>
                 </form>
             </div>
         </div>

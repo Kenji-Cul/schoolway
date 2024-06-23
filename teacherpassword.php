@@ -67,7 +67,7 @@ img{
                     $_SESSION['nameuser'] = "great123";
                     
                     $log="<div class='alert alert-success'><h3 align='center'>Login successful</h3></div>";
-                header("Location: index.php");
+                header("Location: teacherpage.php");
             }
          }
         }

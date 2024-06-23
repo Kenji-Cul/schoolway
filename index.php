@@ -73,8 +73,10 @@ include("projectinfo.php");
 
         <div class="content">
             <h1>learn online from home</h1>
+            <?php if(!isset($_SESSION['student_name'])){?>
             <a href="signuppage.php" style="display:inline; margin-bottom:10px;"><button>Sign Up</button></a>
             <a href="loginpage.php" style="display:inline;"><button>Log In</button></a>
+            <?php }?>
         </div>
 
         <div class="box-container">

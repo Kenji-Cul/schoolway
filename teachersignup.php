@@ -23,6 +23,7 @@ body{
 img{
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
+    object-fit: cover;
 }
 .btn1{
     border:none;
